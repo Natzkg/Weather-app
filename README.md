@@ -1,1 +1,2 @@
 # Weather-app
+How I build my first fully functional weather app in HTML CSS AND JavaScript using API . Get weather details of a particular city by entering the city name. You can also get your current location details by clicking on the "Current" button.This is my start at coding so, please let me know your thoughts or ideas for improvement.
