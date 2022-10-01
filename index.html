@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Weather App/Search Engine</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <form class="search-form">
+          <div class="row">
+            <div class="col-9">
+              <input
+                id="input-city"
+                style="width: 260px;"
+                ;
+                type="search"
+                placeholder="Enter city.."
+                autofocus="on"
+                autocomplete="off"
+                class="form-control shadow-sm"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                style="margin-left: -140px;"
+                class="form-control btn btn-primary shadow-sm w-100"
+              />
+              <button
+                class="btn btn-success w-100"
+                id="current-location-button"
+                style="margin-left: 10px;"
+              >
+                Current
+              </button>
+            </div>
+          </div>
+        </form>
+        <h1 id="city">New York</h1>
+        <ul>
+          <li id="date">Tuesday 19:21</li>
+          <li id="description">Clear</li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <div class="clearfix">
+              <div class="float-left">
+                <span class="temperature" id="temperature" style="color: white;"
+                  >17</span
+                ><span class="units" style="color: white;">°C</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a
+        href="https://github.comr-/weather-app"
+        class="github-link"
+        target="_blank"
+        style="color: #1f6feb;"
+        >Open-source code </a
+      ><span style="color: white;">by Nathalie Kang</span>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/046/856/original/umbrella.jpg?1664108885);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-family: "poppins", sans-serif;
+    color: #fffefe;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0.3cm;
+    margin-top: 10px;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.2);
+    /* margin: 0; */
+  }
+  
+  ul {
+    font-family: "poppins", sans-serif;
+    margin: 0 0 10px;
+    padding: 0;
+  }
+  
+  li {
+    font-family: "poppins", sans-serif;
+    color: #fffefe;
+    font-size: 16px;
+    font-weight: 300;
+    height: 19px;
+    line-height: 1;
+    list-style: none;
+  }
+  
+  .weather-app {
+    border: 1px solid #dadde1;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-top: 60px;
+  }
+  
+  .weather-icon {
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+  }
+  
+  .temperature {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+  }
+  
+  .units {
+    position: relative;
+    top: -34px;
+  }
+  
+  .search-form {
+    margin-bottom: 20px;
+    color: aquamarine;
+  }
+  
+  .btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control {
+    height: calc(1.5em + 0.75rem + 2px);
+  }
+  
+  .current-btn {
+    position: absolute;
+  }
+  footer {
+    margin-block: 10px;
+    text-align: center;
+  }
+  .github-link {
+    font-size: 16px;
+    color: #ff9263;
+  }
+  
